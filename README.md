@@ -10,3 +10,10 @@ https://confluence.slac.stanford.edu/display/PCDS/TwinCAT+3+Git+Setup+and+Best+P
 
  - [ ] Customize this Readme.md to match your own project.
  - [ ] (optional) Configure [doctr](https://pypi.org/project/doctr/) and add the deploy key to the .travis.yml file for auto-generated documentation. Doctr is a python utility for automatically pushing a gh-pages branch through the travis build process. A repository requires some 1st time configuration using the `doctr` command line tool but once that is complete, the pushing process is fully automated. For instructions on configuring doctr: https://github.com/drdoctr/doctr#run-doctr-configure. The doctr command line tool can be found in the [PCDS conda environment](https://github.com/pcdshub/pcds-envs).
+
+## System Description:
+Detailed Documentation: https://confluence.slac.stanford.edu/display/PCDS/JJ+Slit+Motion+System+Controls
+
+4 JJ X-Ray AT-C8-HV Slits:
+- 4 axes per slit: vertical gap, vertical offset, horizontal gap, horizontal offset
+- 16 axes of motion, each driven with EL7037 (open loop)
